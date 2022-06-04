@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81607B3D284BB432006BCD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B3C284BB432006BCD21 /* AppDelegate.swift */; };
+		81607B3F284BB432006BCD21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B3E284BB432006BCD21 /* SceneDelegate.swift */; };
+		81607B41284BB432006BCD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B40284BB432006BCD21 /* ViewController.swift */; };
+		81607B44284BB432006BCD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81607B42284BB432006BCD21 /* Main.storyboard */; };
+		81607B46284BB437006BCD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81607B45284BB437006BCD21 /* Assets.xcassets */; };
+		81607B49284BB437006BCD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81607B47284BB437006BCD21 /* LaunchScreen.storyboard */; };
+		81607B54284BB437006BCD21 /* TekiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B53284BB437006BCD21 /* TekiTests.swift */; };
+		81607B5E284BB437006BCD21 /* TekiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B5D284BB437006BCD21 /* TekiUITests.swift */; };
+		81607B60284BB437006BCD21 /* TekiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B5F284BB437006BCD21 /* TekiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81607B50284BB437006BCD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81607B31284BB432006BCD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81607B38284BB432006BCD21;
+			remoteInfo = Teki;
+		};
+		81607B5A284BB437006BCD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81607B31284BB432006BCD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81607B38284BB432006BCD21;
+			remoteInfo = Teki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81607B39284BB432006BCD21 /* Teki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81607B3C284BB432006BCD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81607B3E284BB432006BCD21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81607B40284BB432006BCD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81607B43284BB432006BCD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81607B45284BB437006BCD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81607B48284BB437006BCD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81607B4A284BB437006BCD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81607B4F284BB437006BCD21 /* TekiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81607B53284BB437006BCD21 /* TekiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekiTests.swift; sourceTree = "<group>"; };
+		81607B59284BB437006BCD21 /* TekiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81607B5D284BB437006BCD21 /* TekiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekiUITests.swift; sourceTree = "<group>"; };
+		81607B5F284BB437006BCD21 /* TekiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81607B36284BB432006BCD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81607B4C284BB437006BCD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81607B56284BB437006BCD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81607B30284BB432006BCD21 = {
+			isa = PBXGroup;
+			children = (
+				81607B3B284BB432006BCD21 /* Teki */,
+				81607B52284BB437006BCD21 /* TekiTests */,
+				81607B5C284BB437006BCD21 /* TekiUITests */,
+				81607B3A284BB432006BCD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81607B3A284BB432006BCD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81607B39284BB432006BCD21 /* Teki.app */,
+				81607B4F284BB437006BCD21 /* TekiTests.xctest */,
+				81607B59284BB437006BCD21 /* TekiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81607B3B284BB432006BCD21 /* Teki */ = {
+			isa = PBXGroup;
+			children = (
+				81607B3C284BB432006BCD21 /* AppDelegate.swift */,
+				81607B3E284BB432006BCD21 /* SceneDelegate.swift */,
+				81607B40284BB432006BCD21 /* ViewController.swift */,
+				81607B42284BB432006BCD21 /* Main.storyboard */,
+				81607B45284BB437006BCD21 /* Assets.xcassets */,
+				81607B47284BB437006BCD21 /* LaunchScreen.storyboard */,
+				81607B4A284BB437006BCD21 /* Info.plist */,
+			);
+			path = Teki;
+			sourceTree = "<group>";
+		};
+		81607B52284BB437006BCD21 /* TekiTests */ = {
+			isa = PBXGroup;
+			children = (
+				81607B53284BB437006BCD21 /* TekiTests.swift */,
+			);
+			path = TekiTests;
+			sourceTree = "<group>";
+		};
+		81607B5C284BB437006BCD21 /* TekiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81607B5D284BB437006BCD21 /* TekiUITests.swift */,
+				81607B5F284BB437006BCD21 /* TekiUITestsLaunchTests.swift */,
+			);
+			path = TekiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81607B38284BB432006BCD21 /* Teki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81607B63284BB437006BCD21 /* Build configuration list for PBXNativeTarget "Teki" */;
+			buildPhases = (
+				81607B35284BB432006BCD21 /* Sources */,
+				81607B36284BB432006BCD21 /* Frameworks */,
+				81607B37284BB432006BCD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teki;
+			productName = Teki;
+			productReference = 81607B39284BB432006BCD21 /* Teki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81607B4E284BB437006BCD21 /* TekiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81607B66284BB437006BCD21 /* Build configuration list for PBXNativeTarget "TekiTests" */;
+			buildPhases = (
+				81607B4B284BB437006BCD21 /* Sources */,
+				81607B4C284BB437006BCD21 /* Frameworks */,
+				81607B4D284BB437006BCD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81607B51284BB437006BCD21 /* PBXTargetDependency */,
+			);
+			name = TekiTests;
+			productName = TekiTests;
+			productReference = 81607B4F284BB437006BCD21 /* TekiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81607B58284BB437006BCD21 /* TekiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81607B69284BB437006BCD21 /* Build configuration list for PBXNativeTarget "TekiUITests" */;
+			buildPhases = (
+				81607B55284BB437006BCD21 /* Sources */,
+				81607B56284BB437006BCD21 /* Frameworks */,
+				81607B57284BB437006BCD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81607B5B284BB437006BCD21 /* PBXTargetDependency */,
+			);
+			name = TekiUITests;
+			productName = TekiUITests;
+			productReference = 81607B59284BB437006BCD21 /* TekiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81607B31284BB432006BCD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					81607B38284BB432006BCD21 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					81607B4E284BB437006BCD21 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 81607B38284BB432006BCD21;
+					};
+					81607B58284BB437006BCD21 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 81607B38284BB432006BCD21;
+					};
+				};
+			};
+			buildConfigurationList = 81607B34284BB432006BCD21 /* Build configuration list for PBXProject "Teki" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81607B30284BB432006BCD21;
+			productRefGroup = 81607B3A284BB432006BCD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81607B38284BB432006BCD21 /* Teki */,
+				81607B4E284BB437006BCD21 /* TekiTests */,
+				81607B58284BB437006BCD21 /* TekiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81607B37284BB432006BCD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81607B49284BB437006BCD21 /* LaunchScreen.storyboard in Resources */,
+				81607B46284BB437006BCD21 /* Assets.xcassets in Resources */,
+				81607B44284BB432006BCD21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81607B4D284BB437006BCD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81607B57284BB437006BCD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81607B35284BB432006BCD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81607B41284BB432006BCD21 /* ViewController.swift in Sources */,
+				81607B3D284BB432006BCD21 /* AppDelegate.swift in Sources */,
+				81607B3F284BB432006BCD21 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81607B4B284BB437006BCD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81607B54284BB437006BCD21 /* TekiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81607B55284BB437006BCD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81607B5E284BB437006BCD21 /* TekiUITests.swift in Sources */,
+				81607B60284BB437006BCD21 /* TekiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81607B51284BB437006BCD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81607B38284BB432006BCD21 /* Teki */;
+			targetProxy = 81607B50284BB437006BCD21 /* PBXContainerItemProxy */;
+		};
+		81607B5B284BB437006BCD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81607B38284BB432006BCD21 /* Teki */;
+			targetProxy = 81607B5A284BB437006BCD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81607B42284BB432006BCD21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81607B43284BB432006BCD21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81607B47284BB437006BCD21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81607B48284BB437006BCD21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81607B61284BB437006BCD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81607B62284BB437006BCD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81607B64284BB437006BCD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Teki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.Teki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81607B65284BB437006BCD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Teki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.Teki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81607B67284BB437006BCD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.TekiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teki.app/Teki";
+			};
+			name = Debug;
+		};
+		81607B68284BB437006BCD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.TekiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teki.app/Teki";
+			};
+			name = Release;
+		};
+		81607B6A284BB437006BCD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.TekiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teki;
+			};
+			name = Debug;
+		};
+		81607B6B284BB437006BCD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.TekiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81607B34284BB432006BCD21 /* Build configuration list for PBXProject "Teki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81607B61284BB437006BCD21 /* Debug */,
+				81607B62284BB437006BCD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81607B63284BB437006BCD21 /* Build configuration list for PBXNativeTarget "Teki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81607B64284BB437006BCD21 /* Debug */,
+				81607B65284BB437006BCD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81607B66284BB437006BCD21 /* Build configuration list for PBXNativeTarget "TekiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81607B67284BB437006BCD21 /* Debug */,
+				81607B68284BB437006BCD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81607B69284BB437006BCD21 /* Build configuration list for PBXNativeTarget "TekiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81607B6A284BB437006BCD21 /* Debug */,
+				81607B6B284BB437006BCD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81607B31284BB432006BCD21 /* Project object */;
+}
