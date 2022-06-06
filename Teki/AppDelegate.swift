@@ -1,8 +1,9 @@
 //
-//  AppDelegate.swift
-//  Teki
-//
-//  Created by Alexis Faure on 04/06/2022.
+//  AppDelegate.swift in Teki
+//  Using Swift 5.0
+//  Created by Alexis Faure on 05/06/2022.
+//  https://github.com/FaureAlexis
+//  © 2022
 //
 
 import UIKit
@@ -16,8 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.

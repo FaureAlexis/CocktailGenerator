@@ -1,8 +1,9 @@
 //
-//  SceneDelegate.swift
-//  Teki
-//
-//  Created by Alexis Faure on 04/06/2022.
+//  SceneDelegate.swift in Teki
+//  Using Swift 5.0
+//  Created by Alexis Faure on 05/06/2022.
+//  https://github.com/FaureAlexis
+//  © 2022
 //
 
 import UIKit

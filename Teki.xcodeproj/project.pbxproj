@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810E1CD2284D3BC000D71F6A /* cocktail.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E1CD1284D3BC000D71F6A /* cocktail.png */; };
 		81607B3D284BB432006BCD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B3C284BB432006BCD21 /* AppDelegate.swift */; };
 		81607B3F284BB432006BCD21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B3E284BB432006BCD21 /* SceneDelegate.swift */; };
 		81607B41284BB432006BCD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81607B40284BB432006BCD21 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810E1CD1284D3BC000D71F6A /* cocktail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cocktail.png; path = ../../Downloads/cocktail.png; sourceTree = "<group>"; };
 		81607B39284BB432006BCD21 /* Teki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81607B3C284BB432006BCD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81607B3E284BB432006BCD21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		81607B30284BB432006BCD21 = {
 			isa = PBXGroup;
 			children = (
+				810E1CD1284D3BC000D71F6A /* cocktail.png */,
 				81607B3B284BB432006BCD21 /* Teki */,
 				81607B52284BB437006BCD21 /* TekiTests */,
 				81607B5C284BB437006BCD21 /* TekiUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81607B49284BB437006BCD21 /* LaunchScreen.storyboard in Resources */,
+				810E1CD2284D3BC000D71F6A /* cocktail.png in Resources */,
 				81607B46284BB437006BCD21 /* Assets.xcassets in Resources */,
 				81607B44284BB432006BCD21 /* Main.storyboard in Resources */,
 			);
@@ -449,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.Teki;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.CocktailGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.Teki;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexisfaure.CocktailGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
